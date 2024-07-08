@@ -1,0 +1,130 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono)
+monodevelop_workspace.xml
+.monodevelop
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 2019/2022
+.vscode/
+.vs/
+.vscode/
+.idea/
+.vscode/
+
+# Rider
+.idea/
+
+# Recycle Bin used by filesystem
+$RECYCLE.BIN/
+
+# Uncomment if using .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*.pdb
+*.cache
+*.ilk
+*.log
+*.dmp
+*.vspx
+*.appx
+*.appxbundle
+*.appxupload
+*.appxsym
+*.cer
+*.pfx
+*.mssln
+*.rptproj.user
+*.rptproj
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/project.lock.json
+**/project.fragment.lock.json
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# User-specific files (Mono)
+*.userprefs
+
+# ASP.NET Core
+appsettings*.json
+
+# Uncomment if using a build agent
+_build/
+server/
+temp/
+test/
+
+# NPM packages
+node_modules/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used by filesystem
+$RECYCLE.BIN/
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used by filesystem
+$RECYCLE.BIN/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,aspnetcore,node
