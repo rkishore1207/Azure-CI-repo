@@ -1,3 +1,6 @@
+using AzureContinuousIntegration.DataAccessLayer;
+using Microsoft.EntityFrameworkCore;
+
 namespace AzureContinuousIntegration
 {
     public class Program
@@ -5,6 +8,9 @@ namespace AzureContinuousIntegration
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            var connectionString = builder.Configuration.GetConnectionString("AzureSqlConnection");
+            builder.Services.AddDbContext<AzureDbContext>(options => options.UseSqlServer(connectionString));
 
             // Add services to the container.
             builder.Services.AddRazorPages();
